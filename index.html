@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="todo-container">
+      <h1>Todo list</h1>
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="count-container"> 
+    </div>
+    <div class="input-container">
+      <form>
+        <input id="input-todo" name="addTodo" type="text"/>
+        <button id="input-button" name="submit" type="submit">추가하기</button>
+      </form>
+      <button id="remove-all">전체 삭제</button>
+    </div>
+  </div>
+  <script type="module" src="src/index.js"></script>
+  <link rel="stylesheet" href="src/styles/todoStyle.css">
+</body>
+</html>

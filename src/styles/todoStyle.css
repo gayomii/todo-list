@@ -1,0 +1,71 @@
+/* #4b6584 */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'New Tegomin', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+li {
+  margin: 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 22px;
+  list-style-type: square;
+}
+
+button {
+  padding: 10px 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.delete-button {
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+}
+
+#input-todo {
+  padding: 10px;
+  font-family: 'Gaegu', cursive;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count-container {
+  font-family: 'Gaegu', cursive;
+  font-size: 16px;
+}
